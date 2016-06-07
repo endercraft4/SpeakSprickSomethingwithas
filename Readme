@@ -1,0 +1,16 @@
+#Files are here. make a new with name of language. Not important just a name
+
+
+word in language start = [english, russian, german, and so on]
+makes a new var with that name. No repetition of vars so use words once.
+	worda = []
+	2 use 
+		worda = [] not accepted. Would use worda the second time as worda stuff.
+		
+
+
+#Now the sys
+	enList[1,2,3,4,5]
+
+#	if adding word, use new word in say any space, use same space in Russian and German. ADD already will do this for you as soon as I add ADD def and make it
+	

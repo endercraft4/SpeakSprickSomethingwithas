@@ -1,0 +1,8 @@
+#Files are here. make a new with name of language. Not important just a name
+
+
+word in language start = [english, russian, german, and so on]
+makes a new var with that name. No repetition of vars so use words once.
+	worda = []
+	2 use 
+		worda = [] not accepted. Would use worda the second time as worda stuff.

@@ -1,0 +1,14 @@
+[Unit]
+Description=SpeachMaster
+After=syslog.target
+
+[Service]
+Type=forking
+User=pi
+PAMName=login
+PIDFile=/home/pi/speak/Main.pid
+ExecStart=python /home/pi/speak/Main.py
+ExecStop=/home/pi/speak/Main.py -kill
+
+[Install]
+WantedBy=multi-user.target
